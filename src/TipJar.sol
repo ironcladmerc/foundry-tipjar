@@ -123,4 +123,8 @@ contract TipJar {
   function getUserBalance(address user) public view returns(uint256) {
     return s_tips[user];
   }
+
+  function getContractBalance() public view returns(uint256) {
+    return address(this).balance;
+  }
 }
