@@ -48,3 +48,9 @@ The Tip Jar is a blockchain-based smart contract designed for Ethereum. It allow
 
 ## License
 MIT License
+
+## Deployed Contract Addresses
+
+### Sepolia Testnet
+
+0x40F24a4E2a9e42E7fc8961fEC39ee87C635bD3eb 

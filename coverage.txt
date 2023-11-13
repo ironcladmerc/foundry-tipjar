@@ -1,5 +1,5 @@
 Compiling 22 files with 0.8.21
-Solc 0.8.21 finished in 4.05s
+Solc 0.8.21 finished in 4.63s
 Compiler run [32msuccessful![0m
 Analysing contracts...
 Running tests...
@@ -12,24 +12,240 @@ Uncovered for script/DeployTipJar.s.sol:
 - Statement (location: source ID 19, line 11, chars 268-281, hits: 0)
 
 Uncovered for src/TipJar.sol:
-- Branch (branch: 4, path: 0) (location: source ID 20, line 72, chars 1868-1951, hits: 0)
-- Line (location: source ID 20, line 73, chars 1900-1944, hits: 0)
-- Statement (location: source ID 20, line 73, chars 1900-1944, hits: 0)
-- Branch (branch: 5, path: 0) (location: source ID 20, line 76, chars 1957-2038, hits: 0)
-- Line (location: source ID 20, line 77, chars 1994-2031, hits: 0)
-- Statement (location: source ID 20, line 77, chars 1994-2031, hits: 0)
-- Branch (branch: 6, path: 0) (location: source ID 20, line 80, chars 2044-2133, hits: 0)
-- Line (location: source ID 20, line 81, chars 2085-2126, hits: 0)
-- Statement (location: source ID 20, line 81, chars 2085-2126, hits: 0)
-- Branch (branch: 7, path: 0) (location: source ID 20, line 89, chars 2266-2326, hits: 0)
-- Line (location: source ID 20, line 90, chars 2288-2319, hits: 0)
-- Statement (location: source ID 20, line 90, chars 2288-2319, hits: 0)
-- Branch (branch: 9, path: 0) (location: source ID 20, line 99, chars 2477-2558, hits: 0)
-- Line (location: source ID 20, line 100, chars 2514-2551, hits: 0)
-- Statement (location: source ID 20, line 100, chars 2514-2551, hits: 0)
-- Branch (branch: 10, path: 0) (location: source ID 20, line 109, chars 2726-2786, hits: 0)
-- Line (location: source ID 20, line 110, chars 2748-2779, hits: 0)
-- Statement (location: source ID 20, line 110, chars 2748-2779, hits: 0)
+- Branch (branch: 7, path: 0) (location: source ID 20, line 88, chars 2444-2514, hits: 0)
+- Line (location: source ID 20, line 89, chars 2472-2503, hits: 0)
+- Statement (location: source ID 20, line 89, chars 2472-2503, hits: 0)
+- Branch (branch: 10, path: 0) (location: source ID 20, line 108, chars 2965-3035, hits: 0)
+- Line (location: source ID 20, line 109, chars 2993-3024, hits: 0)
+- Statement (location: source ID 20, line 109, chars 2993-3024, hits: 0)
+
+Anchors for Contract "TipJar" (solc 0.8.21+commit.d9974bed.Linux.gcc, source ID 20):
+- IC 228 -> Item 0
+  - Refers to item: Function "registerUser" (location: source ID 20, line 43, chars 1094-1320, hits: 12)
+- IC 876 -> Item 1
+  - Refers to item: Line (location: source ID 20, line 44, chars 1151-1169, hits: 12)
+- IC 876 -> Item 2
+  - Refers to item: Statement (location: source ID 20, line 44, chars 1151-1169, hits: 12)
+- IC 927 -> Item 3
+  - Refers to item: Branch (branch: 0, path: 0) (location: source ID 20, line 44, chars 1147-1242, hits: 1)
+- IC 976 -> Item 4
+  - Refers to item: Branch (branch: 0, path: 1) (location: source ID 20, line 44, chars 1147-1242, hits: 11)
+- IC 927 -> Item 5
+  - Refers to item: Line (location: source ID 20, line 45, chars 1185-1231, hits: 1)
+- IC 927 -> Item 6
+  - Refers to item: Statement (location: source ID 20, line 45, chars 1185-1231, hits: 1)
+- IC 977 -> Item 7
+  - Refers to item: Line (location: source ID 20, line 47, chars 1251-1278, hits: 11)
+- IC 977 -> Item 8
+  - Refers to item: Statement (location: source ID 20, line 47, chars 1251-1278, hits: 11)
+- IC 1064 -> Item 9
+  - Refers to item: Line (location: source ID 20, line 48, chars 1288-1313, hits: 11)
+- IC 1064 -> Item 10
+  - Refers to item: Statement (location: source ID 20, line 48, chars 1288-1313, hits: 11)
+- IC 269 -> Item 11
+  - Refers to item: Function "unregisterUser" (location: source ID 20, line 51, chars 1326-1672, hits: 3)
+- IC 1134 -> Item 12
+  - Refers to item: Line (location: source ID 20, line 52, chars 1385-1403, hits: 4)
+- IC 1134 -> Item 13
+  - Refers to item: Statement (location: source ID 20, line 52, chars 1385-1403, hits: 4)
+- IC 1185 -> Item 14
+  - Refers to item: Branch (branch: 1, path: 0) (location: source ID 20, line 52, chars 1381-1478, hits: 1)
+- IC 1234 -> Item 15
+  - Refers to item: Branch (branch: 1, path: 1) (location: source ID 20, line 52, chars 1381-1478, hits: 3)
+- IC 1185 -> Item 16
+  - Refers to item: Line (location: source ID 20, line 53, chars 1419-1467, hits: 1)
+- IC 1185 -> Item 17
+  - Refers to item: Statement (location: source ID 20, line 53, chars 1419-1467, hits: 1)
+- IC 1235 -> Item 18
+  - Refers to item: Line (location: source ID 20, line 55, chars 1491-1508, hits: 3)
+- IC 1235 -> Item 19
+  - Refers to item: Statement (location: source ID 20, line 55, chars 1491-1508, hits: 3)
+- IC 1306 -> Item 20
+  - Refers to item: Branch (branch: 2, path: 0) (location: source ID 20, line 55, chars 1487-1591, hits: 1)
+- IC 1355 -> Item 21
+  - Refers to item: Branch (branch: 2, path: 1) (location: source ID 20, line 55, chars 1487-1591, hits: 2)
+- IC 1306 -> Item 22
+  - Refers to item: Line (location: source ID 20, line 56, chars 1524-1580, hits: 1)
+- IC 1306 -> Item 23
+  - Refers to item: Statement (location: source ID 20, line 56, chars 1524-1580, hits: 1)
+- IC 1356 -> Item 24
+  - Refers to item: Line (location: source ID 20, line 58, chars 1600-1628, hits: 2)
+- IC 1356 -> Item 25
+  - Refers to item: Statement (location: source ID 20, line 58, chars 1600-1628, hits: 2)
+- IC 1443 -> Item 26
+  - Refers to item: Line (location: source ID 20, line 59, chars 1638-1665, hits: 2)
+- IC 1443 -> Item 27
+  - Refers to item: Statement (location: source ID 20, line 59, chars 1638-1665, hits: 2)
+- IC 139 -> Item 28
+  - Refers to item: Function "tipUser" (location: source ID 20, line 62, chars 1678-1913, hits: 9)
+- IC 538 -> Item 29
+  - Refers to item: Line (location: source ID 20, line 63, chars 1738-1761, hits: 9)
+- IC 538 -> Item 30
+  - Refers to item: Statement (location: source ID 20, line 63, chars 1738-1761, hits: 9)
+- IC 551 -> Item 31
+  - Refers to item: Branch (branch: 3, path: 0) (location: source ID 20, line 63, chars 1734-1825, hits: 1)
+- IC 600 -> Item 32
+  - Refers to item: Branch (branch: 3, path: 1) (location: source ID 20, line 63, chars 1734-1825, hits: 8)
+- IC 551 -> Item 33
+  - Refers to item: Line (location: source ID 20, line 64, chars 1777-1814, hits: 1)
+- IC 551 -> Item 34
+  - Refers to item: Statement (location: source ID 20, line 64, chars 1777-1814, hits: 1)
+- IC 601 -> Item 35
+  - Refers to item: Line (location: source ID 20, line 66, chars 1834-1859, hits: 8)
+- IC 601 -> Item 36
+  - Refers to item: Statement (location: source ID 20, line 66, chars 1834-1859, hits: 8)
+- IC 687 -> Item 37
+  - Refers to item: Line (location: source ID 20, line 67, chars 1869-1906, hits: 8)
+- IC 687 -> Item 38
+  - Refers to item: Statement (location: source ID 20, line 67, chars 1869-1906, hits: 8)
+- IC 455 -> Item 39
+  - Refers to item: Function "withdrawPartial" (location: source ID 20, line 70, chars 1919-2520, hits: 4)
+- IC 2141 -> Item 40
+  - Refers to item: Line (location: source ID 20, line 71, chars 1995-2013, hits: 4)
+- IC 2141 -> Item 41
+  - Refers to item: Statement (location: source ID 20, line 71, chars 1995-2013, hits: 4)
+- IC 2192 -> Item 42
+  - Refers to item: Branch (branch: 4, path: 0) (location: source ID 20, line 71, chars 1991-2084, hits: 1)
+- IC 2241 -> Item 43
+  - Refers to item: Branch (branch: 4, path: 1) (location: source ID 20, line 71, chars 1991-2084, hits: 3)
+- IC 2192 -> Item 44
+  - Refers to item: Line (location: source ID 20, line 72, chars 2029-2073, hits: 1)
+- IC 2192 -> Item 45
+  - Refers to item: Statement (location: source ID 20, line 72, chars 2029-2073, hits: 1)
+- IC 2242 -> Item 46
+  - Refers to item: Line (location: source ID 20, line 75, chars 2098-2121, hits: 3)
+- IC 2242 -> Item 47
+  - Refers to item: Statement (location: source ID 20, line 75, chars 2098-2121, hits: 3)
+- IC 2255 -> Item 48
+  - Refers to item: Branch (branch: 5, path: 0) (location: source ID 20, line 75, chars 2094-2185, hits: 1)
+- IC 2304 -> Item 49
+  - Refers to item: Branch (branch: 5, path: 1) (location: source ID 20, line 75, chars 2094-2185, hits: 2)
+- IC 2255 -> Item 50
+  - Refers to item: Line (location: source ID 20, line 76, chars 2137-2174, hits: 1)
+- IC 2255 -> Item 51
+  - Refers to item: Statement (location: source ID 20, line 76, chars 2137-2174, hits: 1)
+- IC 2305 -> Item 52
+  - Refers to item: Line (location: source ID 20, line 79, chars 2199-2226, hits: 2)
+- IC 2305 -> Item 53
+  - Refers to item: Statement (location: source ID 20, line 79, chars 2199-2226, hits: 2)
+- IC 2376 -> Item 54
+  - Refers to item: Branch (branch: 6, path: 0) (location: source ID 20, line 79, chars 2195-2294, hits: 1)
+- IC 2425 -> Item 55
+  - Refers to item: Branch (branch: 6, path: 1) (location: source ID 20, line 79, chars 2195-2294, hits: 1)
+- IC 2376 -> Item 56
+  - Refers to item: Line (location: source ID 20, line 80, chars 2242-2283, hits: 1)
+- IC 2376 -> Item 57
+  - Refers to item: Statement (location: source ID 20, line 80, chars 2242-2283, hits: 1)
+- IC 2426 -> Item 58
+  - Refers to item: Line (location: source ID 20, line 83, chars 2304-2332, hits: 1)
+- IC 2426 -> Item 59
+  - Refers to item: Statement (location: source ID 20, line 83, chars 2304-2332, hits: 1)
+- IC 2512 -> Item 60
+  - Refers to item: Line (location: source ID 20, line 85, chars 2343-2376, hits: 1)
+- IC 2512 -> Item 61
+  - Refers to item: Statement (location: source ID 20, line 85, chars 2343-2376, hits: 1)
+- IC 2590 -> Item 62
+  - Refers to item: Line (location: source ID 20, line 86, chars 2386-2433, hits: 1)
+- IC 2590 -> Item 63
+  - Refers to item: Statement (location: source ID 20, line 86, chars 2386-2433, hits: 1)
+- IC 2592 -> Item 64
+  - Refers to item: Statement (location: source ID 20, line 86, chars 2405-2433, hits: 1)
+- IC 2698 -> Item 65
+  - Refers to item: Line (location: source ID 20, line 88, chars 2448-2456, hits: 1)
+- IC 2698 -> Item 66
+  - Refers to item: Statement (location: source ID 20, line 88, chars 2448-2456, hits: 1)
+- IC 2703 -> Item 67
+  - Refers to item: Branch (branch: 7, path: 0) (location: source ID 20, line 88, chars 2444-2514, hits: 0)
+- IC 2752 -> Item 68
+  - Refers to item: Branch (branch: 7, path: 1) (location: source ID 20, line 88, chars 2444-2514, hits: 1)
+- IC 2703 -> Item 69
+  - Refers to item: Line (location: source ID 20, line 89, chars 2472-2503, hits: 0)
+- IC 2703 -> Item 70
+  - Refers to item: Statement (location: source ID 20, line 89, chars 2472-2503, hits: 0)
+- IC 371 -> Item 71
+  - Refers to item: Function "withdrawAllTips" (location: source ID 20, line 93, chars 2526-3041, hits: 3)
+- IC 1586 -> Item 72
+  - Refers to item: Line (location: source ID 20, line 94, chars 2586-2604, hits: 4)
+- IC 1586 -> Item 73
+  - Refers to item: Statement (location: source ID 20, line 94, chars 2586-2604, hits: 4)
+- IC 1637 -> Item 74
+  - Refers to item: Branch (branch: 8, path: 0) (location: source ID 20, line 94, chars 2582-2675, hits: 1)
+- IC 1686 -> Item 75
+  - Refers to item: Branch (branch: 8, path: 1) (location: source ID 20, line 94, chars 2582-2675, hits: 3)
+- IC 1637 -> Item 76
+  - Refers to item: Line (location: source ID 20, line 95, chars 2620-2664, hits: 1)
+- IC 1637 -> Item 77
+  - Refers to item: Statement (location: source ID 20, line 95, chars 2620-2664, hits: 1)
+- IC 1687 -> Item 78
+  - Refers to item: Line (location: source ID 20, line 98, chars 2689-2712, hits: 3)
+- IC 1687 -> Item 79
+  - Refers to item: Statement (location: source ID 20, line 98, chars 2689-2712, hits: 3)
+- IC 1700 -> Item 80
+  - Refers to item: Branch (branch: 9, path: 0) (location: source ID 20, line 98, chars 2685-2776, hits: 1)
+- IC 1749 -> Item 81
+  - Refers to item: Branch (branch: 9, path: 1) (location: source ID 20, line 98, chars 2685-2776, hits: 2)
+- IC 1700 -> Item 82
+  - Refers to item: Line (location: source ID 20, line 99, chars 2728-2765, hits: 1)
+- IC 1700 -> Item 83
+  - Refers to item: Statement (location: source ID 20, line 99, chars 2728-2765, hits: 1)
+- IC 1750 -> Item 84
+  - Refers to item: Line (location: source ID 20, line 102, chars 2786-2821, hits: 2)
+- IC 1750 -> Item 85
+  - Refers to item: Statement (location: source ID 20, line 102, chars 2786-2821, hits: 2)
+- IC 1818 -> Item 86
+  - Refers to item: Line (location: source ID 20, line 103, chars 2831-2853, hits: 2)
+- IC 1818 -> Item 87
+  - Refers to item: Statement (location: source ID 20, line 103, chars 2831-2853, hits: 2)
+- IC 1887 -> Item 88
+  - Refers to item: Line (location: source ID 20, line 105, chars 2864-2897, hits: 2)
+- IC 1887 -> Item 89
+  - Refers to item: Statement (location: source ID 20, line 105, chars 2864-2897, hits: 2)
+- IC 1965 -> Item 90
+  - Refers to item: Line (location: source ID 20, line 106, chars 2907-2954, hits: 2)
+- IC 1965 -> Item 91
+  - Refers to item: Statement (location: source ID 20, line 106, chars 2907-2954, hits: 2)
+- IC 1967 -> Item 92
+  - Refers to item: Statement (location: source ID 20, line 106, chars 2926-2954, hits: 2)
+- IC 2073 -> Item 93
+  - Refers to item: Line (location: source ID 20, line 108, chars 2969-2977, hits: 2)
+- IC 2073 -> Item 94
+  - Refers to item: Statement (location: source ID 20, line 108, chars 2969-2977, hits: 2)
+- IC 2078 -> Item 95
+  - Refers to item: Branch (branch: 10, path: 0) (location: source ID 20, line 108, chars 2965-3035, hits: 0)
+- IC 2127 -> Item 96
+  - Refers to item: Branch (branch: 10, path: 1) (location: source ID 20, line 108, chars 2965-3035, hits: 2)
+- IC 2078 -> Item 97
+  - Refers to item: Line (location: source ID 20, line 109, chars 2993-3024, hits: 0)
+- IC 2078 -> Item 98
+  - Refers to item: Statement (location: source ID 20, line 109, chars 2993-3024, hits: 0)
+- IC 496 -> Item 99
+  - Refers to item: Function "unregisterAndWithdraw" (location: source ID 20, line 113, chars 3047-3167, hits: 1)
+- IC 2758 -> Item 100
+  - Refers to item: Line (location: source ID 20, line 114, chars 3109-3130, hits: 1)
+- IC 2758 -> Item 101
+  - Refers to item: Statement (location: source ID 20, line 114, chars 3109-3130, hits: 1)
+- IC 2767 -> Item 102
+  - Refers to item: Line (location: source ID 20, line 115, chars 3140-3160, hits: 1)
+- IC 2767 -> Item 103
+  - Refers to item: Statement (location: source ID 20, line 115, chars 3140-3160, hits: 1)
+- IC 167 -> Item 104
+  - Refers to item: Function "isRegisteredUser" (location: source ID 20, line 118, chars 3173-3284, hits: 13)
+- IC 793 -> Item 105
+  - Refers to item: Line (location: source ID 20, line 119, chars 3250-3277, hits: 28)
+- IC 793 -> Item 106
+  - Refers to item: Statement (location: source ID 20, line 119, chars 3250-3277, hits: 28)
+- IC 310 -> Item 107
+  - Refers to item: Function "getUserBalance" (location: source ID 20, line 122, chars 3290-3394, hits: 4)
+- IC 1515 -> Item 108
+  - Refers to item: Line (location: source ID 20, line 123, chars 3368-3387, hits: 4)
+- IC 1515 -> Item 109
+  - Refers to item: Statement (location: source ID 20, line 123, chars 3368-3387, hits: 4)
+- IC 412 -> Item 110
+  - Refers to item: Function "getContractBalance" (location: source ID 20, line 126, chars 3400-3505, hits: 5)
+- IC 2135 -> Item 111
+  - Refers to item: Line (location: source ID 20, line 127, chars 3470-3498, hits: 5)
+- IC 2135 -> Item 112
+  - Refers to item: Statement (location: source ID 20, line 127, chars 3470-3498, hits: 5)
 
 Anchors for Contract "DeployTipJar" (solc 0.8.21+commit.d9974bed.Linux.gcc, source ID 19):
 - IC 59 -> Item 113
@@ -44,232 +260,4 @@ Anchors for Contract "DeployTipJar" (solc 0.8.21+commit.d9974bed.Linux.gcc, sour
   - Refers to item: Line (location: source ID 19, line 11, chars 268-281, hits: 0)
 - IC 166 -> Item 118
   - Refers to item: Statement (location: source ID 19, line 11, chars 268-281, hits: 0)
-
-Anchors for Contract "TipJar" (solc 0.8.21+commit.d9974bed.Linux.gcc, source ID 20):
-- IC 228 -> Item 0
-  - Refers to item: Function "registerUser" (location: source ID 20, line 44, chars 1067-1269, hits: 10)
-- IC 876 -> Item 1
-  - Refers to item: Line (location: source ID 20, line 45, chars 1120-1138, hits: 10)
-- IC 876 -> Item 2
-  - Refers to item: Statement (location: source ID 20, line 45, chars 1120-1138, hits: 10)
-- IC 927 -> Item 3
-  - Refers to item: Branch (branch: 0, path: 0) (location: source ID 20, line 45, chars 1116-1201, hits: 1)
-- IC 976 -> Item 4
-  - Refers to item: Branch (branch: 0, path: 1) (location: source ID 20, line 45, chars 1116-1201, hits: 9)
-- IC 927 -> Item 5
-  - Refers to item: Line (location: source ID 20, line 46, chars 1148-1194, hits: 1)
-- IC 927 -> Item 6
-  - Refers to item: Statement (location: source ID 20, line 46, chars 1148-1194, hits: 1)
-- IC 977 -> Item 7
-  - Refers to item: Line (location: source ID 20, line 48, chars 1206-1233, hits: 9)
-- IC 977 -> Item 8
-  - Refers to item: Statement (location: source ID 20, line 48, chars 1206-1233, hits: 9)
-- IC 1064 -> Item 9
-  - Refers to item: Line (location: source ID 20, line 49, chars 1239-1264, hits: 9)
-- IC 1064 -> Item 10
-  - Refers to item: Statement (location: source ID 20, line 49, chars 1239-1264, hits: 9)
-- IC 269 -> Item 11
-  - Refers to item: Function "unregisterUser" (location: source ID 20, line 52, chars 1273-1581, hits: 3)
-- IC 1134 -> Item 12
-  - Refers to item: Line (location: source ID 20, line 53, chars 1328-1346, hits: 4)
-- IC 1134 -> Item 13
-  - Refers to item: Statement (location: source ID 20, line 53, chars 1328-1346, hits: 4)
-- IC 1185 -> Item 14
-  - Refers to item: Branch (branch: 1, path: 0) (location: source ID 20, line 53, chars 1324-1411, hits: 1)
-- IC 1234 -> Item 15
-  - Refers to item: Branch (branch: 1, path: 1) (location: source ID 20, line 53, chars 1324-1411, hits: 3)
-- IC 1185 -> Item 16
-  - Refers to item: Line (location: source ID 20, line 54, chars 1356-1404, hits: 1)
-- IC 1185 -> Item 17
-  - Refers to item: Statement (location: source ID 20, line 54, chars 1356-1404, hits: 1)
-- IC 1235 -> Item 18
-  - Refers to item: Line (location: source ID 20, line 56, chars 1420-1437, hits: 3)
-- IC 1235 -> Item 19
-  - Refers to item: Statement (location: source ID 20, line 56, chars 1420-1437, hits: 3)
-- IC 1306 -> Item 20
-  - Refers to item: Branch (branch: 2, path: 0) (location: source ID 20, line 56, chars 1416-1510, hits: 1)
-- IC 1355 -> Item 21
-  - Refers to item: Branch (branch: 2, path: 1) (location: source ID 20, line 56, chars 1416-1510, hits: 2)
-- IC 1306 -> Item 22
-  - Refers to item: Line (location: source ID 20, line 57, chars 1447-1503, hits: 1)
-- IC 1306 -> Item 23
-  - Refers to item: Statement (location: source ID 20, line 57, chars 1447-1503, hits: 1)
-- IC 1356 -> Item 24
-  - Refers to item: Line (location: source ID 20, line 59, chars 1515-1543, hits: 2)
-- IC 1356 -> Item 25
-  - Refers to item: Statement (location: source ID 20, line 59, chars 1515-1543, hits: 2)
-- IC 1443 -> Item 26
-  - Refers to item: Line (location: source ID 20, line 60, chars 1549-1576, hits: 2)
-- IC 1443 -> Item 27
-  - Refers to item: Statement (location: source ID 20, line 60, chars 1549-1576, hits: 2)
-- IC 139 -> Item 28
-  - Refers to item: Function "tipUser" (location: source ID 20, line 63, chars 1585-1796, hits: 7)
-- IC 538 -> Item 29
-  - Refers to item: Line (location: source ID 20, line 64, chars 1641-1664, hits: 7)
-- IC 538 -> Item 30
-  - Refers to item: Statement (location: source ID 20, line 64, chars 1641-1664, hits: 7)
-- IC 551 -> Item 31
-  - Refers to item: Branch (branch: 3, path: 0) (location: source ID 20, line 64, chars 1637-1718, hits: 1)
-- IC 600 -> Item 32
-  - Refers to item: Branch (branch: 3, path: 1) (location: source ID 20, line 64, chars 1637-1718, hits: 6)
-- IC 551 -> Item 33
-  - Refers to item: Line (location: source ID 20, line 65, chars 1674-1711, hits: 1)
-- IC 551 -> Item 34
-  - Refers to item: Statement (location: source ID 20, line 65, chars 1674-1711, hits: 1)
-- IC 601 -> Item 35
-  - Refers to item: Line (location: source ID 20, line 67, chars 1723-1748, hits: 6)
-- IC 601 -> Item 36
-  - Refers to item: Statement (location: source ID 20, line 67, chars 1723-1748, hits: 6)
-- IC 687 -> Item 37
-  - Refers to item: Line (location: source ID 20, line 68, chars 1754-1791, hits: 6)
-- IC 687 -> Item 38
-  - Refers to item: Statement (location: source ID 20, line 68, chars 1754-1791, hits: 6)
-- IC 455 -> Item 39
-  - Refers to item: Function "withdrawPartial" (location: source ID 20, line 71, chars 1800-2330, hits: 1)
-- IC 2141 -> Item 40
-  - Refers to item: Line (location: source ID 20, line 72, chars 1872-1890, hits: 1)
-- IC 2141 -> Item 41
-  - Refers to item: Statement (location: source ID 20, line 72, chars 1872-1890, hits: 1)
-- IC 2192 -> Item 42
-  - Refers to item: Branch (branch: 4, path: 0) (location: source ID 20, line 72, chars 1868-1951, hits: 0)
-- IC 2241 -> Item 43
-  - Refers to item: Branch (branch: 4, path: 1) (location: source ID 20, line 72, chars 1868-1951, hits: 1)
-- IC 2192 -> Item 44
-  - Refers to item: Line (location: source ID 20, line 73, chars 1900-1944, hits: 0)
-- IC 2192 -> Item 45
-  - Refers to item: Statement (location: source ID 20, line 73, chars 1900-1944, hits: 0)
-- IC 2242 -> Item 46
-  - Refers to item: Line (location: source ID 20, line 76, chars 1961-1984, hits: 1)
-- IC 2242 -> Item 47
-  - Refers to item: Statement (location: source ID 20, line 76, chars 1961-1984, hits: 1)
-- IC 2255 -> Item 48
-  - Refers to item: Branch (branch: 5, path: 0) (location: source ID 20, line 76, chars 1957-2038, hits: 0)
-- IC 2304 -> Item 49
-  - Refers to item: Branch (branch: 5, path: 1) (location: source ID 20, line 76, chars 1957-2038, hits: 1)
-- IC 2255 -> Item 50
-  - Refers to item: Line (location: source ID 20, line 77, chars 1994-2031, hits: 0)
-- IC 2255 -> Item 51
-  - Refers to item: Statement (location: source ID 20, line 77, chars 1994-2031, hits: 0)
-- IC 2305 -> Item 52
-  - Refers to item: Line (location: source ID 20, line 80, chars 2048-2075, hits: 1)
-- IC 2305 -> Item 53
-  - Refers to item: Statement (location: source ID 20, line 80, chars 2048-2075, hits: 1)
-- IC 2376 -> Item 54
-  - Refers to item: Branch (branch: 6, path: 0) (location: source ID 20, line 80, chars 2044-2133, hits: 0)
-- IC 2425 -> Item 55
-  - Refers to item: Branch (branch: 6, path: 1) (location: source ID 20, line 80, chars 2044-2133, hits: 1)
-- IC 2376 -> Item 56
-  - Refers to item: Line (location: source ID 20, line 81, chars 2085-2126, hits: 0)
-- IC 2376 -> Item 57
-  - Refers to item: Statement (location: source ID 20, line 81, chars 2085-2126, hits: 0)
-- IC 2426 -> Item 58
-  - Refers to item: Line (location: source ID 20, line 84, chars 2139-2167, hits: 1)
-- IC 2426 -> Item 59
-  - Refers to item: Statement (location: source ID 20, line 84, chars 2139-2167, hits: 1)
-- IC 2512 -> Item 60
-  - Refers to item: Line (location: source ID 20, line 86, chars 2174-2207, hits: 1)
-- IC 2512 -> Item 61
-  - Refers to item: Statement (location: source ID 20, line 86, chars 2174-2207, hits: 1)
-- IC 2590 -> Item 62
-  - Refers to item: Line (location: source ID 20, line 87, chars 2213-2259, hits: 1)
-- IC 2590 -> Item 63
-  - Refers to item: Statement (location: source ID 20, line 87, chars 2213-2259, hits: 1)
-- IC 2592 -> Item 64
-  - Refers to item: Statement (location: source ID 20, line 87, chars 2231-2259, hits: 1)
-- IC 2698 -> Item 65
-  - Refers to item: Line (location: source ID 20, line 89, chars 2270-2278, hits: 1)
-- IC 2698 -> Item 66
-  - Refers to item: Statement (location: source ID 20, line 89, chars 2270-2278, hits: 1)
-- IC 2703 -> Item 67
-  - Refers to item: Branch (branch: 7, path: 0) (location: source ID 20, line 89, chars 2266-2326, hits: 0)
-- IC 2752 -> Item 68
-  - Refers to item: Branch (branch: 7, path: 1) (location: source ID 20, line 89, chars 2266-2326, hits: 1)
-- IC 2703 -> Item 69
-  - Refers to item: Line (location: source ID 20, line 90, chars 2288-2319, hits: 0)
-- IC 2703 -> Item 70
-  - Refers to item: Statement (location: source ID 20, line 90, chars 2288-2319, hits: 0)
-- IC 371 -> Item 71
-  - Refers to item: Function "withdrawAllTips" (location: source ID 20, line 94, chars 2336-2790, hits: 2)
-- IC 1586 -> Item 72
-  - Refers to item: Line (location: source ID 20, line 95, chars 2392-2410, hits: 3)
-- IC 1586 -> Item 73
-  - Refers to item: Statement (location: source ID 20, line 95, chars 2392-2410, hits: 3)
-- IC 1637 -> Item 74
-  - Refers to item: Branch (branch: 8, path: 0) (location: source ID 20, line 95, chars 2388-2471, hits: 1)
-- IC 1686 -> Item 75
-  - Refers to item: Branch (branch: 8, path: 1) (location: source ID 20, line 95, chars 2388-2471, hits: 2)
-- IC 1637 -> Item 76
-  - Refers to item: Line (location: source ID 20, line 96, chars 2420-2464, hits: 1)
-- IC 1637 -> Item 77
-  - Refers to item: Statement (location: source ID 20, line 96, chars 2420-2464, hits: 1)
-- IC 1687 -> Item 78
-  - Refers to item: Line (location: source ID 20, line 99, chars 2481-2504, hits: 2)
-- IC 1687 -> Item 79
-  - Refers to item: Statement (location: source ID 20, line 99, chars 2481-2504, hits: 2)
-- IC 1700 -> Item 80
-  - Refers to item: Branch (branch: 9, path: 0) (location: source ID 20, line 99, chars 2477-2558, hits: 0)
-- IC 1749 -> Item 81
-  - Refers to item: Branch (branch: 9, path: 1) (location: source ID 20, line 99, chars 2477-2558, hits: 2)
-- IC 1700 -> Item 82
-  - Refers to item: Line (location: source ID 20, line 100, chars 2514-2551, hits: 0)
-- IC 1700 -> Item 83
-  - Refers to item: Statement (location: source ID 20, line 100, chars 2514-2551, hits: 0)
-- IC 1750 -> Item 84
-  - Refers to item: Line (location: source ID 20, line 103, chars 2564-2599, hits: 2)
-- IC 1750 -> Item 85
-  - Refers to item: Statement (location: source ID 20, line 103, chars 2564-2599, hits: 2)
-- IC 1818 -> Item 86
-  - Refers to item: Line (location: source ID 20, line 104, chars 2605-2627, hits: 2)
-- IC 1818 -> Item 87
-  - Refers to item: Statement (location: source ID 20, line 104, chars 2605-2627, hits: 2)
-- IC 1887 -> Item 88
-  - Refers to item: Line (location: source ID 20, line 106, chars 2634-2667, hits: 2)
-- IC 1887 -> Item 89
-  - Refers to item: Statement (location: source ID 20, line 106, chars 2634-2667, hits: 2)
-- IC 1965 -> Item 90
-  - Refers to item: Line (location: source ID 20, line 107, chars 2673-2719, hits: 2)
-- IC 1965 -> Item 91
-  - Refers to item: Statement (location: source ID 20, line 107, chars 2673-2719, hits: 2)
-- IC 1967 -> Item 92
-  - Refers to item: Statement (location: source ID 20, line 107, chars 2691-2719, hits: 2)
-- IC 2073 -> Item 93
-  - Refers to item: Line (location: source ID 20, line 109, chars 2730-2738, hits: 2)
-- IC 2073 -> Item 94
-  - Refers to item: Statement (location: source ID 20, line 109, chars 2730-2738, hits: 2)
-- IC 2078 -> Item 95
-  - Refers to item: Branch (branch: 10, path: 0) (location: source ID 20, line 109, chars 2726-2786, hits: 0)
-- IC 2127 -> Item 96
-  - Refers to item: Branch (branch: 10, path: 1) (location: source ID 20, line 109, chars 2726-2786, hits: 2)
-- IC 2078 -> Item 97
-  - Refers to item: Line (location: source ID 20, line 110, chars 2748-2779, hits: 0)
-- IC 2078 -> Item 98
-  - Refers to item: Statement (location: source ID 20, line 110, chars 2748-2779, hits: 0)
-- IC 496 -> Item 99
-  - Refers to item: Function "unregisterAndWithdraw" (location: source ID 20, line 114, chars 2794-2904, hits: 1)
-- IC 2758 -> Item 100
-  - Refers to item: Line (location: source ID 20, line 115, chars 2852-2873, hits: 1)
-- IC 2758 -> Item 101
-  - Refers to item: Statement (location: source ID 20, line 115, chars 2852-2873, hits: 1)
-- IC 2767 -> Item 102
-  - Refers to item: Line (location: source ID 20, line 116, chars 2879-2899, hits: 1)
-- IC 2767 -> Item 103
-  - Refers to item: Statement (location: source ID 20, line 116, chars 2879-2899, hits: 1)
-- IC 167 -> Item 104
-  - Refers to item: Function "isRegisteredUser" (location: source ID 20, line 119, chars 2908-3012, hits: 11)
-- IC 793 -> Item 105
-  - Refers to item: Line (location: source ID 20, line 120, chars 2980-3007, hits: 21)
-- IC 793 -> Item 106
-  - Refers to item: Statement (location: source ID 20, line 120, chars 2980-3007, hits: 21)
-- IC 310 -> Item 107
-  - Refers to item: Function "getUserBalance" (location: source ID 20, line 123, chars 3016-3113, hits: 4)
-- IC 1515 -> Item 108
-  - Refers to item: Line (location: source ID 20, line 124, chars 3089-3108, hits: 4)
-- IC 1515 -> Item 109
-  - Refers to item: Statement (location: source ID 20, line 124, chars 3089-3108, hits: 4)
-- IC 412 -> Item 110
-  - Refers to item: Function "getContractBalance" (location: source ID 20, line 127, chars 3117-3215, hits: 5)
-- IC 2135 -> Item 111
-  - Refers to item: Line (location: source ID 20, line 128, chars 3182-3210, hits: 5)
-- IC 2135 -> Item 112
-  - Refers to item: Statement (location: source ID 20, line 128, chars 3182-3210, hits: 5)
 
